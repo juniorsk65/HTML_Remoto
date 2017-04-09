@@ -8,6 +8,14 @@
                 background-color: #dddddd;
                 color: black;
             }
+            body h2 {
+                  font-size: 15pt;
+                  color: #606060;
+                  background-color: rgba(0, 0, 0, 0.3);
+                  padding: 5px;
+                  margin: 0px;
+                  text-indent: left;
+            }
             div#interface {
             	width: 900px;
             	background-color: white;
@@ -84,7 +92,7 @@ nav#menu ul{
 	text-transform: uppercase; /*tornando maiusculo*/
 	position: absolute;
 	top: -15px;
-	left: 700px;
+	left: 500px;
 }
 nav#menu li{
 	display: inline-block;
@@ -148,6 +156,11 @@ table#tabelaspec caption span {
       margin-top: 10px;
 }
 aside#lateral {
+      font-size: 15pt;
+      color: #ffffff;
+      background-color: rgba(0, 0, 0, 0.3);
+      padding: 5px;
+      margin: 0px;
       display: block;
       width: 350px;
       float: right;
